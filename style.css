@@ -1,0 +1,65 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 700px;
+	height: 700px;
+	padding: 20px;
+}
+.container__search{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+.container__search input{
+	flex-grow: 1;
+	max-width: 600px;
+	height: 15px;
+	border: 1px solid;
+	border-radius: 30px;
+	padding: 10px;
+	font-size: 20px;
+}
+
+.container__search button{
+	border-radius: 30px;
+	width: 70px;
+	border: 1px solid;
+}
+.container__search button:hover{
+	background: wheat;
+}
+.container__search button:active{
+	background: greenyellow;
+}
+
+.container__info-output{
+	
+	margin-top: 10px;
+	display: flex;
+	
+	
+}
+
+.info-output__avatar{
+	width: 120px;
+	margin: 30px;
+	
+}
+
+.container__followers-repositories{
+	
+	display: flex;
+	justify-content: space-between;
+}
+
+.repositories-list{
+	display: flex;
+	flex-direction: column;
+}
+
